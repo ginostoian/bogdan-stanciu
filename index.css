@@ -1,0 +1,73 @@
+body {
+    background-color: #4A314D;
+    color: #ace894;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.container {
+    max-width: 80%;
+    margin-inline: auto;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+.img-wrapper {
+    max-width: 400px;
+    margin-inline: auto;
+    border-radius: 20px;
+    margin-block-end: 3rem;
+}
+
+
+
+.gift {
+    max-width: 400px;
+    margin-inline: auto;
+    background-color: #1A090D;
+    border-radius: 20px;
+    padding: 3rem;
+}
+
+.gift-wrap {
+    background-image: url(./assets/gift.jpeg);
+    z-index: 1000;
+    color: transparent;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+.instructions-header {
+    margin-top: 3rem;
+    font-size: 24px;
+}
+
+a {
+    color: aqua;
+}
+
+.reveal-btn {
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.reveal-btn:hover {
+    transform: scale(1.2);
+}
